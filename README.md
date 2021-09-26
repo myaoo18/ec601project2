@@ -19,8 +19,10 @@ Using jupyter notebook to code in python
 2) Prior to step 2, type export 'BEARER_TOKEN'='<Your_bearer_token>' in your terminal. Your bearer token can be found in your developer account from creating a new project
 3) In step 3, url can be changed to any users you want to analyze. 
 "https://api.twitter.com/2/users/'<user account id you want to explore>'/tweets"
-Change '<user account id you want to explore>' into a user account id that you want to explore using https://codeofaninja.com/tools/find-twitter-id/ to search for the id
+  
+Change "user account id you want to explore" into a user account id that you want to explore using https://codeofaninja.com/tools/find-twitter-id/ to search for the id
+  
 4) Hit Run for each cell and your result should display
 
 ## Results
-Results please see tweets.csv
+Please see tweets.csv
