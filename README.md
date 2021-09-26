@@ -1,7 +1,7 @@
 # EC601 Project 2 Twitter API
 
 ## Overview
-This project aims to collect tweets from Twitter API v2 by accessing endpoints and saving tweets collected in CSV format. More specifically, 100 most recent tweets from Elon Musk was collected through the User Lookup endpoint to receive up-to-date details on a given user. Below, there are detailed steps on how the API was used and result collected.
+This project aims to collect tweets from Twitter API v2 by accessing endpoints and saving tweets collected in CSV format. More specifically, 100 most recent tweets from Elon Musk was collected through the User Lookup API to receive up-to-date details on a given user. Below, there are detailed steps on how the API was used and result collected.
 
 ## How to use
 ### Prerequisites to Start
