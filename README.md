@@ -8,6 +8,7 @@ This project aims to collect tweets from Twitter API v2 by accessing endpoints a
 1) Go to the developer portal dashboard https://developer.twitter.com/en/portal/dashboard 
 2) Sign in with your developer account or create one if you don't already have one
 3) Create a new project, give it a name and a description
+
 Using jupyter notebook to code in python
 4) In your terminal, type "brew install jupyter"
 5) Upon installation, type "jupyter notebook" which a new browser would pop up 
