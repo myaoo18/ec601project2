@@ -65,3 +65,7 @@ with open('sentimentAnalysis.csv', 'w', encoding='UTF8', newline='') as f:
   
 ## Results
 Please see tweets.csv and sentimenAnalysis.csv
+  
+## Resources
+1) https://www.youtube.com/watch?v=pJUN9Rsu_30
+2) https://cloud.google.com/natural-language/docs/reference/libraries
