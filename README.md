@@ -1,4 +1,4 @@
-# EC601 Project 2 Analyzing Elon Musk's 100 Recent Twitts Using Twitter API and Google NLP for Sentiment Analysis
+# EC601 Project 2 Analyzing Elon Musk's 100 Recent Tweets Using Twitter API and Google NLP for Sentiment Analysis
 
 ## Overview
 This project aims to collect 100 tweets from Elon Musk using Twitter User API v2 and analyze his sentiment using Google NLP API. This works by accessing endpoints, saving tweets collected in CSV format and using a sentiment analysis trained model to analyze texts. More specifically, 100 most recent tweets from Elon Musk was collected through the User Lookup API to receive up-to-date details and each tweets is ranked with a sentiment analysis value. Below, there are detailed steps on how the API was used and what the results meant.
