@@ -1,7 +1,19 @@
-# EC601 Project 2 Twitter API and Google NLP for Sentiment Analysis
+# EC601 Project 2 Analyzing Elon Musk's 100 Recent Twitts Using Twitter API and Google NLP for Sentiment Analysis
 
 ## Overview
-This project aims to collect 100 tweets from Elon Musk using Twitter User API v2 and analyze his sentiment using Google NLP API. This works by accessing endpoints, saving tweets collected in CSV format and using a sentiment analysis trained model to analyze texts. More specifically, 100 most recent tweets from Elon Musk was collected through the User Lookup API to receive up-to-date details and each tweets is ranked with a sentiment analysis value. Below, there are detailed steps on how the API was used and results collected.
+This project aims to collect 100 tweets from Elon Musk using Twitter User API v2 and analyze his sentiment using Google NLP API. This works by accessing endpoints, saving tweets collected in CSV format and using a sentiment analysis trained model to analyze texts. More specifically, 100 most recent tweets from Elon Musk was collected through the User Lookup API to receive up-to-date details and each tweets is ranked with a sentiment analysis value. Below, there are detailed steps on how the API was used and what the results meant.
+
+## MVP
+The minimal viable product is a program that retrieves 100 most recent tweets efficiently and accurately. These tweets will be saved into a csv file for a faster importing rate compared to other file formats. Then, using a sentimental analysis from Google NLP, we can analyze each tweet’s sentiment and give it a score. 
+
+## Use Stories
+1) As a stock investor/trader, I want to analyze Elon Musk’s tweets and have a quick understanding or prediction of where different stocks are headed.
+2) As a Tesla fan, I want to analyze Elon Must's tweets and understand how well the company is currently performing.
+
+## Users
+1) Investors
+2) Option Traders
+3) Tesla Fans
 
 ## How to use Twitter API
 ### Prerequisites to Start
@@ -64,7 +76,10 @@ with open('sentimentAnalysis.csv', 'w', encoding='UTF8', newline='') as f:
 
   
 ## Results
-Please see tweets.csv and sentimenAnalysis.csv
+Please see tweets.csv and sentimenAnalysis.csv for the 100 tweets retrieved and sentimental analysis scores.
+This project attempts to determine the overall attitude expressed within each tweet. The sentiment is represented in numerical score and magnitude values.
+Score: ranges between -1.0 and 1.0. They correspond to the overall emotional of the author. More positive score represents positive attitude, while more negative score represents negative attitude. 
+Magnitude: indicates the overall strength of emotion. The score can go from 0.0 to infinite, meaning the emotion within the text can contribute to the text's magnitude. Thus a longer text block may contribute to a greater magnitude. 
   
 ## Resources
 1) https://www.youtube.com/watch?v=pJUN9Rsu_30
