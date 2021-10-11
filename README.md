@@ -77,10 +77,19 @@ with open('sentimentAnalysis.csv', 'w', encoding='UTF8', newline='') as f:
   
 ## Results
 Please see tweets.csv and sentimenAnalysis.csv for the 100 tweets retrieved and sentimental analysis scores.
+*Make sure to scroll to the right of the sentimenAnalysis.csv file to view the scores*
 This project attempts to determine the overall attitude expressed within each tweet. The sentiment is represented in numerical score and magnitude values.
 Score: ranges between -1.0 and 1.0. They correspond to the overall emotional of the author. More positive score represents positive attitude, while more negative score represents negative attitude. 
 Magnitude: indicates the overall strength of emotion. The score can go from 0.0 to infinite, meaning the emotion within the text can contribute to the text's magnitude. Thus a longer text block may contribute to a greater magnitude. 
-  
+#### This is an example of clear positive.
+@tegmark Nice work!	
+
+Score: 0.8999999761581421, Magnitude: 0.8999999761581421
+#### This is an example of clear negative.
+@carsonight Not super surprising, given that internal combustion engine cars literally have “combustion” in the name	
+
+Score: -0.6000000238418579, Magnitude: 0.6000000238418579
+
 ## Resources
 1) https://www.youtube.com/watch?v=pJUN9Rsu_30
 2) https://cloud.google.com/natural-language/docs/reference/libraries
