@@ -97,7 +97,7 @@ Score: -0.6000000238418579, Magnitude: 0.6000000238418579
   
 # Project 3
 ## Unit Tests
-Created four unit tests to test twitter api.
+### Created four unit tests to test twitter api.
 1) [functionality under normal use case] check to see api connection with valid bearer token
 2) [functionality under normal use case] check to see if api responds with valid bearer token connection to twitter api
 3) [functionality under normal use case] check to see if data frame has 5 columns, 100 rows and specific headers
@@ -111,3 +111,17 @@ collected 4 items
 test_connect_to_api.py ....                                                                                                  [100%]
 
 ======================================================== 4 passed in 2.81s =========================================================
+  
+### Created three unit tests to test sentimental analysis google api.
+1) [functionality under normal use case] check to see api connection with valid key
+2) [functionality under normal use case] check to see if get_text_to_analyze can parse through tweets.csv and save all the data
+3) [functionality under normal use case] check to see if write_sentiments_to_csv actually wrote to sentimentAnalysis.csv. confirm header and header count to 2. confirm column count to 100
+  
+======================================================= test session starts ========================================================
+platform darwin -- Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+rootdir: /Users/mandyyao/Desktop/ec601
+collected 3 items                                                                                                                  
+
+unit_test_sentimental_analysis_api.py ...                                                                                    [100%]
+
+======================================================== 3 passed in 28.63s ========================================================
