@@ -93,3 +93,21 @@ Score: -0.6000000238418579, Magnitude: 0.6000000238418579
 ## Resources
 1) https://www.youtube.com/watch?v=pJUN9Rsu_30
 2) https://cloud.google.com/natural-language/docs/reference/libraries
+  
+  
+# Project 3
+## Unit Tests
+Created four unit tests to test twitter api.
+1) [functionality under normal use case] check to see api connection with valid bearer token
+2) [functionality under normal use case] check to see if api responds with valid bearer token connection to twitter api
+3) [functionality under normal use case] check to see if data frame has 5 columns, 100 rows and specific headers
+4) [Error handling] check to see api throws an error gracefully when bearer token is invalid
+  
+======================================================= test session starts ========================================================
+platform darwin -- Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+rootdir: /Users/mandyyao/Desktop/ec601
+collected 4 items                                                                                                                  
+
+test_connect_to_api.py ....                                                                                                  [100%]
+
+======================================================== 4 passed in 2.81s =========================================================
